@@ -1,6 +1,30 @@
-body {
-    background-image: url('img/Base.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-  }
+#header1 {
+  background-color: blue;
+}
+#header2 {
+  background-color: rgb(208, 19, 222);
+}
+#homeslider {
+  background-color: brown;
+  height: 200px;
+}
+#h {
+  background-color: white;
+  position: relative;
+  height: ;: 500px;
+}
+#hrecommend {
+  background-color: bisque;
+  height: 200px;
+  width: 200px;
+}
+#hdeals {
+  background-color: rgb(240, 255, 196);
+  height: 200px;
+  width: 200px;
+}
+#hreviews {
+  background-color: rgb(223, 128, 11);
+  height: 200px;
+  width: 200px;
+}
