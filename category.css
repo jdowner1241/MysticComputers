@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+color: white;
+font-family: 'Golos Text', sans-serif;
+}
+.base{
+    background-color: rgb(14, 14, 43);
+    height: 90vh;
+    background-image: url("header1.png");
+}
+.nav-title{
+    margin: 0 auto;
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,43,87,1) 51%,);
+    height: 5.7rem;
+}
+.collection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    
+
+}
+.collection input{
+  margin-left:12rem;
+  height: 1.7rem;
+  width:40%;
+  border: 1px solid black;
+  padding: 1.2rem;
+  border-radius: 0.2rem;
+  position: relative;
+  }
+
+   .fa-magnifying-glass{
+    position: absolute;
+    right: 13.5rem;
+    color: rgb(0, 0, 0);
+    top: 10px;
+    bottom: 0;
+}
+
+.fa-cart-shopping{
+margin-left: 1rem;
+width:2rem;
+}
+
+
+
+.nav-main{
+    display: grid;
+    place-content: center;
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+}
+.btn-signup{
+    padding: 0.6rem;
+    margin-left: 0.3rem;
+
+}
+a{
+    text-decoration: none;
+    margin: 5.7rem ;
+    color: rgb(249, 244, 244);
+    font-size: 1.2rem;
+    transition: all 3ms;
+    
+}
+a:hover{
+    color: grey;
+    
+}
