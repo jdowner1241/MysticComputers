@@ -12,8 +12,10 @@ font-family: 'Golos Text', sans-serif;
 }
 .base{
     background-color: rgb(14, 14, 43);
-    height: 90vh;
-    background-image: url("header1.png");
+    height:90vh;
+    background-image: url("/img/background-Image.jpg");
+    background-size: cover;
+    background-blend-mode:soft-light;
 }
 .nav-title{
     margin: 0 auto;
@@ -21,6 +23,7 @@ font-family: 'Golos Text', sans-serif;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,43,87,1) 51%,);
     height: 5.7rem;
+    
 }
 .collection{
     display: flex;
@@ -71,7 +74,6 @@ a{
     text-decoration: none;
     margin: 5.7rem ;
     color: rgb(249, 244, 244);
-    font-size: 1.2rem;
     transition: all 3ms;
     
 }
