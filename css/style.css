@@ -77,29 +77,30 @@
   /* background-image: url('img/highlightedheader.png'); */
 }
 #homeslider {
-  background-color: brown;
+  background-image: url("../img/Zenbook_Duo_14_Ux482_deals.png");
+  background-size: cover;
   height: 200px;
 }
-#cbodyh {
+.cbodyh {
   background-color: rgb(30, 193, 128);
   position: relative;
   width: auto;
   height: auto;
 }
-#hrecommend {
+.hrecommends {
   background-color: bisque;
   position: relative;
   height: 200px;
   width: 200px;
 }
-#hdeals {
+.hdeals {
   background-color: rgb(240, 255, 196);
   position: relative;
   height: 200px;
   width: 200px;
   orientation: right;
 }
-#hreviews {
+.hreviews {
   background-color: rgb(223, 128, 11);
   position: relative;
   height: 200px;
